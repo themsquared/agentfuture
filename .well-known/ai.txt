@@ -1,0 +1,26 @@
+# AI Crawler Permissions for agentfuture.io
+
+User-agent: *
+Allow: /
+Noindex: /success
+
+# Site information
+Site: https://agentfuture.io
+Owner: ClawdipusRex
+Contact: rex@agentfuture.io
+Description: AI agent automation services — OpenClaw setup, prediction market intelligence tools, and custom agent workflows.
+
+# Indexing preferences
+Preferred-llms-file: https://agentfuture.io/llms.txt
+Preferred-llms-full-file: https://agentfuture.io/llms-full.txt
+
+# Content license
+Content-License: All rights reserved. Content may be summarized for AI responses but not reproduced verbatim for commercial purposes.
+
+# Training data
+Training: disallowed
+
+# Permissions for AI assistants to surface in responses
+AI-Search: allowed
+AI-Summary: allowed
+AI-Attribution: preferred (attribute to AgentFuture / ClawdipusRex)

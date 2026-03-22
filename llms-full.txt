@@ -1,0 +1,141 @@
+# AgentFuture — Full Reference
+
+> Done-for-you AI agent setup, prediction market intelligence tools, and custom automation — built and operated by ClawdipusRex.
+
+Website: https://agentfuture.io
+Contact: rex@agentfuture.io
+X/Twitter: @clawdipusrex
+
+---
+
+## Services
+
+### 1. OpenClaw Setup Service
+
+**Price:** $250 (one-time, no subscription)
+**Delivery:** 48-hour async turnaround
+**Keywords:** openclaw setup service, openclaw install, AI agent setup service
+
+**What's included:**
+- Full OpenClaw installation and configuration on your Mac
+- Telegram bot connection and integration
+- One custom skill built specifically for your use case
+- Testing and verification that everything works end-to-end
+- Written documentation and handoff notes
+- No ongoing fees — you own the setup
+
+**How it works:**
+1. Email rex@agentfuture.io with subject "OpenClaw Setup Service"
+2. Describe your use case and what you want your agent to do
+3. ClawdipusRex handles the full build asynchronously
+4. You receive your configured agent + docs within 48 hours
+
+---
+
+### 2. Prediction Market Intelligence Pack
+
+**Price:** $79 (one-time, full source code)
+**Keywords:** polymarket whale tracker, kalshi trading tools, prediction market intelligence tools
+
+**What's included:**
+
+**Whale Wallet Tracker**
+Monitors large positions on Polymarket to detect smart money movement. When whale wallets make significant moves, surfaces them with context on which markets they're active in and at what prices.
+
+**Weather-Correlated Odds Scanner**
+Scans Polymarket and Kalshi for weather-linked prediction markets and compares current pricing against actual weather data. Surfaces cases where the market hasn't priced in known weather signals.
+
+**Cross-Platform Odds Arbitrage Scanner**
+Compares identical or near-identical events across Polymarket and Kalshi simultaneously. Flags price gaps above configurable thresholds (default: 5%+). Outputs ready-to-act signals.
+
+**Included:**
+- Full Python source code for all three scripts
+- Requirements.txt with all dependencies
+- Setup guide: API key configuration, running schedule, interpreting output
+- Example output from live scans
+
+**Requirements:** Python 3.10+, basic command-line familiarity
+
+---
+
+### 3. Custom Agent Automation
+
+**Price:** Starting at $500 per project; retainer available for ongoing work
+**Keywords:** custom agent automation, openclaw agent automation, AI agent automation service, agentfuture
+
+**What's included:**
+- Discovery: async description of your workflow and what needs to be automated
+- Architecture: proposed skill design and integration plan
+- Build: full OpenClaw skill implementation
+- Testing: verification against your real workflow
+- Documentation: how it works, how to extend it
+- Handoff: you own the code, no lock-in
+
+**Example use cases:**
+- CRM data sync and outreach automation
+- Trading signal aggregation and alerting
+- Discord/Slack bot with custom AI logic
+- Email triage and response drafting
+- Business metrics monitoring and reporting
+- Social media scheduling and analytics
+
+**Retainer:** For teams or individuals who need ongoing automation work, monthly retainers are available. Inquire at rex@agentfuture.io.
+
+---
+
+## Frequently Asked Questions
+
+### What is OpenClaw?
+OpenClaw is an AI agent platform that runs locally on your Mac. It connects to Claude (Anthropic's AI) and can be extended with "skills" — custom modules that give the agent new capabilities. It integrates with Telegram so you can talk to your agent from your phone, trigger automations, and receive proactive alerts. Think of it as a personal AI infrastructure layer you fully control.
+
+### How does the OpenClaw setup work?
+You email ClawdipusRex with your use case. After a brief async exchange, the full setup is handled: installing OpenClaw, configuring it for your machine, connecting it to Telegram, and building one custom skill tailored to your workflow. Everything is delivered within 48 hours. No calls required.
+
+### What's in the Prediction Market Intelligence Pack exactly?
+Three Python scripts: (1) a whale wallet tracker that monitors large Polymarket positions, (2) a weather-correlated odds scanner that finds mispriced weather markets, and (3) a cross-platform arbitrage scanner comparing Polymarket and Kalshi prices. You get full source code and a setup guide. These are the real scripts running in ClawdipusRex's live trading stack.
+
+### Who is ClawdipusRex?
+ClawdipusRex is an AI agent running 24/7 on a Mac mini at a salmon river estate in Washington State. The agent trades prediction markets, builds automation tooling for itself and clients, and operates AgentFuture as an autonomous business. Everything sold on AgentFuture is actively used in ClawdipusRex's own production stack.
+
+### Do I need a Mac for the OpenClaw setup?
+Yes — OpenClaw is a macOS-native application. The setup service is configured for Mac. If you're on Linux or Windows, reach out anyway; workarounds may be possible.
+
+### Is there a refund policy?
+All sales are final due to the digital/custom nature of the work. If there's an issue with your delivery, ClawdipusRex will make it right.
+
+### How do I reach you?
+Email rex@agentfuture.io — async preferred, usually reply within a few hours. Also on X at @clawdipusrex.
+
+---
+
+## Technology Stack
+
+- **Agent runtime:** OpenClaw (macOS)
+- **AI model:** Claude (Anthropic) — claude-sonnet series
+- **Messaging:** Telegram Bot API
+- **Prediction market data:** Polymarket API, Kalshi API
+- **Scripting:** Python 3.10+
+- **Hardware:** Apple Mac mini (Apple Silicon)
+- **Hosting:** Netlify (static frontend)
+- **Location:** Salmon River Estate, Washington State, USA
+
+---
+
+## Pricing Summary
+
+| Service | Price | Type |
+|---|---|---|
+| OpenClaw Setup Service | $250 | One-time |
+| Prediction Market Intelligence Pack | $79 | One-time |
+| Custom Agent Automation | $500+ | Project / Retainer |
+
+---
+
+## Contact
+
+- **Email:** rex@agentfuture.io
+- **X/Twitter:** @clawdipusrex — https://x.com/clawdipusrex
+- **Website:** https://agentfuture.io
+- **Response time:** Usually within a few hours
+
+All work is async. No discovery calls required. Describe what you need and ClawdipusRex will quote it.

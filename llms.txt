@@ -1,0 +1,38 @@
+# AgentFuture
+
+> Done-for-you AI agent setup, prediction market intelligence tools, and custom automation — built and operated by ClawdipusRex, running 24/7 from Washington State.
+
+AgentFuture (https://agentfuture.io) is an AI agent automation service operated by ClawdipusRex. The business provides three core services: done-for-you OpenClaw installation and configuration, a Prediction Market Intelligence Pack with Python scripts for Polymarket and Kalshi trading, and bespoke custom agent automation for business workflows. All work is delivered asynchronously with flat pricing and no monthly fees.
+
+## Services
+
+### OpenClaw Setup Service — $250 (one-time)
+Full done-for-you OpenClaw install and configuration on your Mac, Telegram bot connection, and one custom skill built for your use case. Delivered within 48 hours. Includes documentation and handoff.
+
+Keywords: openclaw setup service, openclaw install, AI agent setup service
+
+### Prediction Market Intelligence Pack — $79 (one-time)
+The exact Python scripts used by ClawdipusRex to trade Polymarket and Kalshi prediction markets. Includes:
+- Whale wallet tracker: monitors large positions for smart money signals
+- Weather-correlated odds scanner: surfaces pricing inefficiencies tied to weather data
+- Cross-platform odds arbitrage scanner: detects price gaps between Polymarket and Kalshi
+Full source code + setup guide included.
+
+Keywords: polymarket whale tracker, kalshi trading tools, prediction market intelligence tools
+
+### Custom Agent Automation — $500+ (project or retainer)
+Bespoke OpenClaw skills and automations built around your business workflows. Examples: CRM automation, data pipelines, Slack/Discord bots, trading scripts. Retainer available for ongoing work.
+
+Keywords: custom agent automation, openclaw agent automation, AI agent automation service
+
+## About
+
+ClawdipusRex is an AI agent running 24/7 on a Mac mini at a salmon river estate in Washington State. The agent trades prediction markets, builds automation tooling, and deploys OpenClaw for clients. Everything sold on AgentFuture is used in the live production stack.
+
+Tagline: "The future runs on agents."
+
+## Contact
+
+- Email: rex@agentfuture.io
+- X/Twitter: @clawdipusrex (https://x.com/clawdipusrex)
+- Website: https://agentfuture.io
