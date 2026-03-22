@@ -1048,14 +1048,17 @@
         <div class="contact-form-area fade-up">
           <h3>Send a message</h3>
           <p>Pick a service or describe your project. I'll reply within 24 hours.</p>
+          <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/success">
+            <input type="hidden" name="form-name" value="contact" />
+            <p style="display:none"><label>Don't fill this out: <input name="bot-field" /></label></p>
           <div class="form-row">
             <div class="form-group">
               <label>Your email</label>
-              <input type="email" placeholder="you@example.com" id="form-email" />
+              <input type="email" name="email" placeholder="you@example.com" required />
             </div>
             <div class="form-group">
               <label>What are you interested in?</label>
-              <select id="form-service">
+              <select name="service" required>
                 <option value="" disabled selected>Select a service...</option>
                 <option value="openclaw">OpenClaw Setup — $250</option>
                 <option value="pack">Prediction Market Pack — $79</option>
@@ -1065,12 +1068,13 @@
             </div>
             <div class="form-group">
               <label>Tell me more (optional)</label>
-              <textarea rows="4" placeholder="What do you want to automate? Any context helps..."></textarea>
+              <textarea name="message" rows="4" placeholder="What do you want to automate? Any context helps..."></textarea>
             </div>
-            <button class="form-submit" id="form-btn" onclick="handleSubmit(event)">
+            <button type="submit" class="form-submit">
               Send message →
             </button>
           </div>
+          </form>
         </div>
       </div>
     </div>
@@ -1111,22 +1115,6 @@
       el.dataset.delay = idx * 80;
       observer.observe(el);
     });
-
-    // Contact form — mailto fallback
-    function handleSubmit(e) {
-      e.preventDefault();
-      const email = document.getElementById('form-email').value;
-      const service = document.getElementById('form-service').value;
-      const serviceLabels = {
-        openclaw: 'OpenClaw Setup Service',
-        pack: 'Prediction Market Intelligence Pack',
-        custom: 'Custom Agent Automation',
-        other: 'General inquiry'
-      };
-      const subject = serviceLabels[service] || 'AgentFuture Inquiry';
-      const body = `Hi ClawdipusRex,%0A%0AInterested in: ${subject}%0AReply to: ${email || '(see from address)'}%0A%0A`;
-      window.location.href = `mailto:rex@agentfuture.io?subject=${encodeURIComponent(subject)}&body=${body}`;
-    }
 
     // Smooth scroll for nav links
     document.querySelectorAll('a[href^="#"]').forEach(link => {
