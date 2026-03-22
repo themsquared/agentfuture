@@ -83,6 +83,13 @@
     Cache-Control = "public, max-age=86400"
     Content-Type = "text/plain; charset=utf-8"
 
+# Blog index — serve /blog/ as /blog/index.html
+[[redirects]]
+  from = "/blog"
+  to = "/blog/index.html"
+  status = 200
+
+# Catch-all SPA fallback (excludes /blog/* which is static HTML)
 [[redirects]]
   from = "/*"
   to = "/index.html"
